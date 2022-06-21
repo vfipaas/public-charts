@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  veecode:
+  devportal:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-06-21T10:16:43.214041329-03:00"
+    created: "2022-06-21T10:40:43.43884238-03:00"
     description: A Helm chart for Kubernetes
-    digest: 3f2c5404cd9e7c15dc7db70ec35881091d240dbf344cadf30dbd5afd56c55dbc
-    name: veecode
+    digest: 8cc24859f6062e361c20af45fe137d51c4168f7445bb2546058be9ba45c7dc18
+    name: devportal
     type: application
     urls:
-    - charts/veecode-0.1.0.tgz
+    - charts/devportal-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-21T10:16:43.213558084-03:00"
+generated: "2022-06-21T10:40:43.438516416-03:00"
