@@ -11,7 +11,7 @@ service:
   containerPort: 7007
 ingress:
   enabled: false
-  ingressClassName: "nginx"
+  #ingressClassName: "nginx"
   #annotations: {}
   #hosts:
     #- host: 
