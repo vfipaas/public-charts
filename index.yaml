@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   devportal:
   - apiVersion: v2
-    appVersion: 1.17.0
-    created: "2022-06-24T09:55:12.25169109-03:00"
+    appVersion: 0.2.0
+    created: "2022-06-29T12:41:26.715810781-03:00"
     description: A Helm chart for Kubernetes
-    digest: 403c84f2ceab962e2d6b8033a58e320a1957a254164b6beecd1f98794c84dd67
+    digest: 3bf7d250dbf68d7a92a1b2c8fa4b2b8bf7a9578dffd5a7a9dc7f0f079fa09e91
     name: devportal
     type: application
     urls:
     - charts/devportal-0.1.1.tgz
     version: 0.1.1
-generated: "2022-06-24T09:55:12.251184311-03:00"
+generated: "2022-06-29T12:41:26.715464235-03:00"
