@@ -1,0 +1,19 @@
+name: renew index
+on: push
+
+jobs:
+  run:
+    name: Add a index
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: './'
+      - run: helm repo index .
+
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: 'Add index file'
+          add: '*.index'
+          cwd: './'
