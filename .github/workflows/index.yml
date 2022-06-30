@@ -12,6 +12,6 @@ jobs:
       - run: helm repo index .
       - uses: EndBug/add-and-commit@v9
         with:
-          message: 'Add index file'
+          message: 'renew index file'
           add: 'index.yaml'
           cwd: './'
