@@ -3,7 +3,7 @@ entries:
   devportal:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-07-11T12:14:54.677724427Z"
+    created: "2022-07-11T12:23:11.510051208Z"
     description: A Helm chart for Kubernetes
     digest: 22253082cca87cdb11d180e954d7012c4dd2d63bf04e4882c72b9a4f9bfd40db
     name: devportal
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-07-11T12:14:54.677071123Z"
+    created: "2022-07-11T12:23:11.508274075Z"
     description: A Helm chart for Kubernetes
     digest: bc1a2d87d8a9b27ef5f6224b3780516040313fbe298d808e81f90bb5e5ccc4dc
     name: devportal
@@ -21,4 +21,4 @@ entries:
     urls:
     - charts/devportal-0.1.1.tgz
     version: 0.1.1
-generated: "2022-07-11T12:14:54.676093716Z"
+generated: "2022-07-11T12:23:11.506771047Z"
