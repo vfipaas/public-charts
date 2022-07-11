@@ -10,11 +10,11 @@ Para adicionar o repositorio com devportal execute o comando abaixo:
 ```bash
 helm repo add veecode https://vfipaas.github.io/public-charts/
 ```
-## Atualizando os repositorios helm:
+## Atualizando os repositorios helm
 ```bash
 helm repo update
 ```
-## Listando os repositorios:
+## Listando os repositorios
 ```bash
 helm repo list
 ```
@@ -37,11 +37,11 @@ helm repo list
 | `githubtoken`      | `string` | **Obrigatório**. Token para acesso ao projeto no Github |
 | `githubSpecHouseURL`      | `string` | **Obrigatório**. URL do repo onde o devportal syncroniza as Specs |
 
-## Instalando o devportal:
+## Instalando o devportal
 ```bash
 helm install devportal veecode/devportal --values ./values.yaml
 ```
-## Removendo o devportal:
+## Removendo o devportal
 ```bash
 helm delete devportal
 helm remove repo veecode
