@@ -22,3 +22,8 @@ helm repo list
 ```bash
 helm install devportal veecode/devportal
 ```
+## removendo o devportal:
+```bash
+helm delete devportal
+helm remove repo veecode
+```
