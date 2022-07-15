@@ -3,7 +3,7 @@ entries:
   devportal:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-07-13T12:32:03.237947313Z"
+    created: "2022-07-15T14:38:13.871150857Z"
     description: A Helm chart for Kubernetes
     digest: 784a9ffb0197cf079164a4fbc5878948f560210f1d1ca7758da02e5232c16540
     name: devportal
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-07-13T12:32:03.237464413Z"
+    created: "2022-07-15T14:38:13.870710153Z"
     description: A Helm chart for Kubernetes
     digest: bc1a2d87d8a9b27ef5f6224b3780516040313fbe298d808e81f90bb5e5ccc4dc
     name: devportal
@@ -21,4 +21,38 @@ entries:
     urls:
     - charts/devportal-0.1.1.tgz
     version: 0.1.1
-generated: "2022-07-13T12:32:03.236750912Z"
+  mockserver:
+  - apiVersion: v1
+    appVersion: 5.13.2
+    created: "2022-07-15T14:38:13.871840265Z"
+    description: Chart to deploy MockServer to Kubernetes.  MockServer enables easy
+      mocking of any system you integrate with via HTTP or HTTPS with clients written
+      in Java, JavaScript and Ruby.  MockServer also includes a proxy that introspects
+      all proxied traffic including encrypted SSL traffic and supports Port Forwarding,
+      Web Proxying (i.e. HTTP proxy), HTTPS Tunneling Proxying (using HTTP CONNECT)
+      and SOCKS Proxying (i.e. dynamic port forwarding).
+    digest: b03bdb1310dca021aee1e005ee07f3c9b2f80e200c8f61fc39c563c7e868d688
+    home: http://mock-server.com
+    icon: http://mock-server.com/apple-touch-icon.png
+    keywords:
+    - mocking
+    - mock-server
+    - http-mock
+    - http
+    - test
+    - test-server
+    - proxy
+    - http-proxy
+    - socks-proxy
+    - https-proxy
+    maintainers:
+    - email: jamesdbloom+mockserver@gmail.com
+      name: James D Bloom
+    name: mockserver
+    sources:
+    - https://github.com/mock-server/mockserver
+    - https://hub.docker.com/r/mockserver/mockserver
+    urls:
+    - charts/mockserver-5.13.2.tgz
+    version: 5.13.2
+generated: "2022-07-15T14:38:13.870088846Z"
